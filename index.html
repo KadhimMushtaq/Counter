@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+    <link rel="stylesheet" href="Css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="counter">
+        <div class="counter__value-container">
+          <div
+            class="counter__current-value"
+            id="counter__current-value"
+            aria-live="polite"
+            role="status"
+          >
+            0
+          </div>
+        </div>
+        <div class="counter__buttons-container">
+          <button class="counter__increase-btn" id="counter__increase-btn">
+            Increase
+          </button>
+          <button class="counter__decrease-btn" id="counter__decrease-btn">
+            Decrease
+          </button>
+          <button class="counter__reset-btn" id="counter__reset-btn">
+            Reset
+          </button>
+        </div>
+      </div>
+    </main>
+    <script src="JS/script.js"></script>
+  </body>
+</html>
